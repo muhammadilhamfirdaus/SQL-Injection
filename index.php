@@ -4,8 +4,9 @@
     <title>Form Login</title>
 </head>
 <body>
+    <h2>M Ilham Firdaus</h2>
     <h2>Login Form (SQL Injection Test)</h2>
-    <form method="post" action="login-vuln.php">
+    <form method="post" action="login-safe.php">
         <label>Username:</label><br>
         <input type="text" name="username"><br>
         <label>Password:</label><br>
